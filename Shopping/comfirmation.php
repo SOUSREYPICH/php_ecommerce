@@ -1,6 +1,6 @@
 <?php
 // DB connection
-$conn = new mysqli("localhost", "root", "Pich1111", "ecommerce");
+$conn = new mysqli("localhost", "your_user", "your_password", "your_db_name");
 if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 
 $billing = [

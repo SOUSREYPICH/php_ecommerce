@@ -3,9 +3,9 @@
     ini_set('display_errors', 1);
 
     $host = 'localhost';
-    $dbname = 'ecommerce';
-    $user = 'root';
-    $pass = 'Pich1111';
+    $dbname = 'your_db_name';
+    $user = 'your_user';
+    $pass = 'your_password';
 
     $messageSent = '';
     $errorMsg = '';

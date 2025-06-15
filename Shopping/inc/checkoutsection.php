@@ -5,9 +5,9 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 $host = "localhost";
-$user = "root";
-$pass = "Pich1111";
-$db = "ecommerce";
+$user = "your_user";
+$pass = "your_password";
+$db = "your_db_name";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) {
